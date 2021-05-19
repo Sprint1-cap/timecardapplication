@@ -9,11 +9,6 @@ import org.springframework.stereotype.Repository;
 import com.capgemini.entities.Leave;
 @Repository
 public interface LeaveRepository extends JpaRepository<Leave, Integer>{
-	//@Query("select l from Leave l where l.employee=:emp")
-    //List<Leave> findByEmpId(Employee emp);
-	//@Query("select l from Leave l where l.employee=(select emp from Employee emp where emp.employeeId=:empId)")
-	//List<Leave> findByEmpId(int empId);
-	//@Query("delete from Leave lea where lea.leaveId=:id")
-	//void deleteId(int id);
+	
 
 }
